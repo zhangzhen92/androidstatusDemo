@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.zz.androidstatusdemo.MainActivity">
+    <!--如果想要使上面有一定的高度,模拟状态栏的高度-->
+    <View
+        android:background="@android:color/holo_blue_bright"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/status_bar_height"></View>
+    <ImageView
+    android:scaleType="centerCrop"
+    android:src="@mipmap/image"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" />
+
+</LinearLayout>
